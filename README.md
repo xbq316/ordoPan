@@ -84,6 +84,13 @@ python ordopan.py synpan -i input_dir -o output_dir -t thread
 python ordopan.py ordo -b bed_dir -s sample.list -c chro.list -g geneindex.final.txt -o output_dir -t thread_num
 ```
 
+## 3.例子
+```bash
+# 测试玉米基因组排序
+cd example
+bash main.sh
+```
+
 # 三.子脚本工具
 ## 1.对单个染色体进行排序
 > 若是某个染色体的排序不理想，可使用以下脚本重新对该染色体进行排序
