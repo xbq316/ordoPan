@@ -1,3 +1,5 @@
+![](images/ordopan-main.png "ordoPan 构建流程")
+
 - 编译程序&安装依赖
 ```bash
 # g++ 应当满足 C++ 17 标准，下载 compilers 以避免 服务器 gblic 版本过低问题
