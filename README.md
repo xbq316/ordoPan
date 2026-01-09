@@ -72,19 +72,13 @@ spe4
 
 # 二.无序泛基因组约束顺序
 
-## 1.获取泛基因集
-- 获取 geneindex 文件
+## 1.约束泛基因组顺序
 ```bash
-# 若是没有泛基因组文件，则可以使用以下脚本构建
-python ordopan.py synpan -i input_dir -o output_dir -t thread
-```
-
-## 2.约束泛基因组顺序
-```bash
+# ordopan 的使用方法
 python ordopan.py ordo -b bed_dir -s sample.list -c chro.list -g geneindex.final.txt -o output_dir -t thread_num
 ```
 
-## 3.例子
+## 2.玉米泛基因组例子
 ```bash
 # 测试玉米基因组排序
 cd example
