@@ -1,4 +1,4 @@
-![](images/ordopan-main.png "ordoPan 构建流程")
+![](images/ordopan-main.png "ordoPan 执行原理")
 
 - 编译程序&安装依赖
 ```bash
